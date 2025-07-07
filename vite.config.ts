@@ -20,7 +20,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
   base: './'
 })*/
 export default defineConfig({
-  base: './TangoSite/',
+  base: '/TangoSite/',
   plugins: [
     vue(),
     vueJsx(),
