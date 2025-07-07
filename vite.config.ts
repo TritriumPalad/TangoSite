@@ -5,8 +5,8 @@ import vue from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
 import vueDevTools from 'vite-plugin-vue-devtools'
 
-/*// https://vite.dev/config/
-export default defineConfig({
+// https://vite.dev/config/
+/*export default defineConfig({
   plugins: [
     vue(),
     vueJsx(),
@@ -20,11 +20,11 @@ export default defineConfig({
   base: './'
 })*/
 export default defineConfig({
-  base: '/dist/',
+  base: './TangoSite/',
   plugins: [
     vue(),
     vueJsx(),
-    vueDevTools()
+    vueDevTools(),
   ],
   resolve: {
     alias: {
